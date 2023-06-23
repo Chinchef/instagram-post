@@ -1,0 +1,46 @@
+body {
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.post {
+    width: 450px;
+}
+.post-header {
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+}
+.header-icon {
+    display: flex;
+    align-items: center;
+}
+.fa-brands {
+    margin-right: 5px;
+    font-size: 20px;
+}
+.fa-ellipsis-vertical {
+    font-size: 30px;
+}
+.post-image {
+    background-color: white;
+}
+img {
+    width: 100%;
+}
+.post-footer {
+    background-color: white;
+}
+.description-icons {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    font-size: 25px;
+}
+.text-post {
+    text-align: justify;
+    padding: 10px;
+}
